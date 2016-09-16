@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activities.RecordAubeActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tv_name_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="Aube: " />
+
+        <TextView
+            android:id="@+id/tv_address_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/tv_name_record"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="000000000" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_name_aube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_title"
+        android:inputType="text"
+        android:ems="15"
+        android:hint="@string/name_aube"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/bg_login_et"/>
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/rl_class_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name_aube"
+        android:layout_alignRight="@+id/et_name_aube"
+        android:layout_below="@+id/et_name_aube"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="45%"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_category_room"
+            android:textSize="18sp"
+            android:text="@string/select_category"/>
+
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            style="@style/Widget.MyApp.Spinner"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="55%"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_category_room">
+        </Spinner>
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+            android:id="@+id/rl_sub_class_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/et_name_aube"
+            android:layout_alignRight="@+id/et_name_aube"
+            android:layout_below="@+id/rl_class_spinner"
+            android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="45%"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_subcategory_room"
+            android:textSize="18sp"
+            android:text="@string/select_sub_category"/>
+
+
+        <Spinner
+            android:id="@+id/spinner_subcategory"
+            style="@style/Widget.MyApp.Spinner"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            app:layout_widthPercent="55%"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_subcategory_room">
+        </Spinner>
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_Aube"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:id="@+id/btn_save_aube"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/rl_sub_class_spinner"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_register_btn"
+        android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

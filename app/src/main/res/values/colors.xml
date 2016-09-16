@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--   <color name="colorAccent">#FF4081</color>-->
+    <color name="colorBackground">#9f9f9f</color>
+    <color name="colorAccent">#3DC9F1</color>   <!-- fab button .. -->
+    <!--<color name="colorStatusBar">#9f9f9f</color>
+    <color name="colorActionBar">#9f9f9f</color>-->
+    <color name="colorStatusBar">#0FA8D3</color>  <!--blueAube 12-->
+    <color name="colorActionBar">#3DC9F1</color>
+
+
+    <color name="actionbarTextColor">#3DC9F1</color>
+    <color name="colorTextActionBar">#545454</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name ="gray">#FF888888</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Cinq couleurs -->
+    <color name="greenAube05">#BAF13D</color>
+    <color name="bleuAube05">#3DC9F1</color>
+    <color name="redAube05">#F13D51</color>
+    <color name="purpleAube05">#F13DD8</color>
+    <color name="orangeAube05">#F1B03D</color>
+
+    <!-- Quatre couleurs -->
+    <color name="greenAube04">#C9F13D</color>
+    <color name="bleuAube04">#3DC9F1</color>
+    <color name="mauveAube04">#653DF1</color>
+    <color name="orangeAube04">#F1653D</color>
+
+    <color name="blueAube1">#E7F8FD</color>
+    <color name="blueAube2">#CFF2FC</color>
+    <color name="blueAube3">#B6EBFA</color>
+    <color name="blueAube4">#9EE4F8</color>
+    <color name="blueAube5">#86DDF6</color>
+    <color name="blueAube6">#6ED7F5</color>
+    <color name="blueAube7">#55D0F3</color>
+    <color name="blueAube11">#1ABFEE</color>
+    <color name="blueAube12">#0FA8D3</color>
+    <color name="blueAube13">#0D8CB0</color>
+    <color name="blueAube14">#0A708D</color>
+    <color name="blueAube15">#08546A</color>
+    <color name="blueAube16">#053846</color>
+    <color name="blueAube17">#031C23</color>
+
+    <!--<color name="grayAQ">#FF888888</color>
+    <color name="greenAQ">#009966</color>
+    <color name="yellowAQ">#FFDE33</color>
+    <color name="orangeAQ">#FF9933</color>
+    <color name="redAQ">#CC0033</color>
+    <color name="purpleAQ">#660099</color>
+    <color name="garnetAQ">#7E0023</color>-->
+
+    <color name="grayAQ">#9D9D9C</color>
+    <color name="greenAQ">#4DC1E9</color>
+    <color name="yellowAQ">#1BBC9B</color>
+    <color name="orangeAQ">#F7CA18</color>
+    <color name="redAQ">#F27935</color>
+    <color name="purpleAQ">#E74C3C</color>
+    <color name="garnetAQ">#CF000F</color>
+
+
+    <color name="grayBg">#EEEEEE</color>
+    <color name="grayBtn">#9D9D9C</color>
+    <color name="grayTitle">#646363</color>
+    <color name="grayFont">#9D9D9C</color>
+    <color name="blueBtn">#4DC1E9</color>
+
+
+</resources>

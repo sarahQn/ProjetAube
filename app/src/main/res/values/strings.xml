@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Aube</string>
+    <!-- Login -->
+    <string name="mention_log">Welcome on the application Aube</string>
+    <string name="mention_log_2"> To take full benefit from Aube, we invite you to log in </string>
+    <string name="email_log">Email</string>
+    <string name="password_log">Password</string>
+    <string name="register">Register here</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">LOGIN</string>
+    <string name="error_email">Invalid email</string>
+    <string name="error_password">Invalid password</string>
+    <string name="incorrect_user_details">Incorrect user details</string>
+    <string name="btn_register">REGISTER</string>
+    <!-- Register -->
+    <string name="mention_register">Create an account</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="birth_date">Date of birth</string>
+    <string name="address">Address</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="empty_field">Empty field</string>
+    <string name="password_char_error">Password must contain at least 7 characters</string>
+    <string name="passwords_no_match">Passwords don\'t match</string>
+    <string name="email_exist">Email already in use</string>
+    <string name="register_error">Error occurred, please retry</string>
+    <!-- Forgot_password-->
+
+    <string name="provide_email_msg">Please provide your email address.</string>
+    <string name="msg_send">If your account is found in our records, an email will be sent to you in a few minutes with instructions to reset your password.</string>
+    <string name="email_forgot">Email</string>
+    <string name="send_email">Send</string>
+    <string name="cancel">cancel</string>
+
+    <!-- Progress dialog-->
+    <string name="ok">OK</string>
+    <string name="processing">Processing</string>
+    <string name="please_wait">Please wait</string>
+    <string name="title_activity_main">Aube</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation drawer -->
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="outdoor">Outdour</string>
+    <string name="history">History</string>
+    <string name="devices">Devices</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+
+    <string name="indoor">Indoor</string>
+
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="scanning">Scanning...</string>
+    <string name="name_aube">Enter a name here for your Aube</string>
+    <string name="save_Aube">Save</string>
+
+
+    <string name ="bedroom">Bedroom</string>
+    <string name ="dining_room">Dining room</string>
+    <string name ="dressing_room">Dressing room</string>
+    <string name ="kitchen_room">Kitchen</string>
+    <string name ="laundry_room">Laundry room</string>
+    <string name ="lounge">Lounge</string>
+    <string name ="office">Office</string>
+    <string name ="bathroom">Bathroom</string>
+    <string name ="toilet">Toilet</string>
+    <string name ="attic">Attic</string>
+    <string name ="cellar">Cellar</string>
+    <string name ="other">Other</string>
+
+    <string name="car">Car</string>
+    <string name="motorhome">Motor home</string>
+    <string name="boat">Boat</string>
+
+    <string name="select_category">Select a category: </string>
+    <string name="select_sub_category">Select a subcategory: </string>
+
+    <string name="good">Good</string>
+    <string name="moderate">Moderate</string>
+    <string name="unhealthy_sensitive_groups">Unhealthy for sensitive groups</string>
+    <string name="unhealthy">Unhealthy</string>
+    <string name="very_unhealthy">Very unhealthy</string>
+    <string name="hazardous">Hazardous</string>
+    <string name="need_location_access">This app needs location access</string>
+    <string name="ask_grant_location">Please grant location access so this app can detect your location.</string>
+    <string name="need_internet_aqi">Need Internet connection to get AQI value!</string>
+    <string name="coming_soon">Coming soon...</string>
+    <string name="error_grant_location">Since location access has not been granted, this app will not be able to get your location for outdoor Air Quality.</string>
+    <string name="functionality_limited">Functionality limited</string>
+    <string name="check_aube_connection">Check if your Aube is connected to the power supply, then click OK</string>
+</resources>

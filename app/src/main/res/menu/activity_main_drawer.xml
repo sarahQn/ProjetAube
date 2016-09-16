@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <group
+            android:id="@+id/nav_group1"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_72dp"
+                android:title="@string/dashboard" />
+            <!--<item
+                android:id="@+id/nav_vehicle"
+                android:icon="@drawable/ic_car_72dp"
+                android:title="@string/vehicle" />-->
+            <item
+                android:id="@+id/nav_outdoor"
+                android:icon="@drawable/ic_outdoor_72dp"
+                android:enabled="false"
+                android:title="@string/outdoor" />
+        </group>
+
+        <group
+            android:id="@+id/nav_group2"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_devices"
+                android:icon="@drawable/ic_history_72dp"
+                android:title="@string/devices"
+                />
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/ic_history_72dp"
+                android:enabled="false"
+                android:title="@string/history" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_72dp"
+                android:enabled="false"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_72dp"
+                android:enabled="false"
+                android:title="@string/help" />
+
+        </group>
+
+        <group
+            android:id="@+id/nav_group3"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_72dp"
+                android:title="@string/logout"/>
+        </group>
+
+    </group>
+
+
+
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
